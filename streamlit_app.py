@@ -16,7 +16,16 @@ def main():
         "Process and analyze IFC files with ease. Upload your IFC file or use a sample model to get started."
     )
 
+if "show_about_us" not in st.session_state:
+    st.session_state.show_about_us = False
+
+# Show or hide button
+if not st.session_state.show_about_us:
+    if st.sidebar.button("📘 Show Project Info"):
+        st.session_state.show_about_us = True
+else:
     st.sidebar.title("About Us")
+    
     small_font_sidebar = """
     <div style='font-size:12px'>
     We're a team of 3 from BCA’s Construction Productivity and Quality Group (2 from the Digitalisation Dept + 1 from the Buildable Design Dept). We've worked on projects under CORENET X (CX) and encountered some of the common challenges that come with the process. As such, we're exploring how AI can help make the work smoother and less time-consuming — especially when it comes to processing and understanding complex BIM models. 
