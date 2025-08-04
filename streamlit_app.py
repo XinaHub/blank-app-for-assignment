@@ -37,9 +37,6 @@ def main():
     This solution improves accuracy in identifying building element properties, allowing users to access complex building information through LLMs, thereby deepening understanding and supporting informed design and construction decisions.
     """)
 
-    if __name__ == "__main__":
-    main()
-
     # Initialize file loader
     sample_models_dir = "sample_models"
     sample_files = FileLoader.list_sample_models(sample_models_dir)
