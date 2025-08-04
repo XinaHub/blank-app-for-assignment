@@ -24,23 +24,25 @@ def main():
     <br>
     
     <h4>🔍 Problem Scope</h4>
-    The project addresses the challenges associated with interpreting complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:
-    <li>a) Inconsistent or abbreviated naming conventions </li>
-    <li>b) Difficulty in accurately identifying properties of elements (e.g. precast walls) </li>
-    </ul>
+    <p>The project addresses the challenges associated with interpreting complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:</p>
+    <ol type="a" style="margin-left: 20px;">
+      <li>Inconsistent or abbreviated naming conventions</li>
+      <li>Difficulty in accurately identifying properties of elements (e.g. precast walls)</li>
+    </ol>
 
     <h4>🎯 Objectives</h4>
-    <li>a) Improve clarity and accuracy in understanding complex IFC model data assisted by AI </li>
-    <li>b) Deepening understanding and supporting informed design and construction decisions  </li>
-    </ul>
+    <ol type="a" style="margin-left: 20px;">
+    <li> Improve clarity and accuracy in understanding complex IFC model data assisted by AI </li>
+    <li> Deepening understanding and supporting informed design and construction decisions  </li>
+    </ol>
 
     <h4>🗂️ Data sources</h4>
-    <li>- **IFC files** containing: </li>
-          - Building element geometries and properties  
-          - Naming conventions (including abbreviations/shorthand)  
-    <li>- Extracted data is structured into: </li>
-    <li>- **JSON** format for easy integration and manipulation </li>
-    <li>- **AI embeddings** for semantic understanding and searchability </li>
+    <li>**IFC files** containing: </li>
+        - Building element geometries and properties  
+        - Naming conventions (including abbreviations/shorthand)  
+    <li>Extracted data is structured into: </li>
+    <li>-**JSON** format for easy integration and manipulation </li>
+    <li>-**AI embeddings** for semantic understanding and searchability </li>
     </ul>  
 
     <h4>🚀 Features</h4>
@@ -67,8 +69,6 @@ def main():
                 <li>Assists in navigating and understanding complex model details</li>
             </ul>
         </li>
-    </ul>
-    </div>
     """
 
     st.sidebar.markdown(small_font_sidebar, unsafe_allow_html=True)
