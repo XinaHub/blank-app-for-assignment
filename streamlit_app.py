@@ -17,6 +17,11 @@ def main():
     )
 
     st.sidebar.title("About Us")
+    # Sidebar toggle
+    show_sidebar_info = st.sidebar.checkbox("Show Project Info", value=False)
+
+    if show_sidebar_info:
+        st.sidebar.markdown(small_font_sidebar, unsafe_allow_html=True)
 
     small_font_sidebar = """
     <div style='font-size:12px'>
