@@ -21,24 +21,49 @@ def main():
     small_font_sidebar = """
     <div style='font-size:12px'>
     We're a team of 3 from BCA’s Construction Productivity and Quality Group (2 from the Digitalisation Dept + 1 from the Buildable Design Dept). We've worked on projects under CORENET X (CX) and encountered some of the common challenges that come with the process. As such, we're exploring how AI can help make the work smoother and less time-consuming — especially when it comes to processing and understanding complex BIM models. 
+    <br>
+    
+    <h4>🔍 Problem Scope</h4>
+    The project addresses the challenges associated with interpreting complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:
+    a) Inconsistent or abbreviated naming conventions
+    b) Difficulty in accurately identifying properties of elements (e.g. precast walls)
 
+    <h4>🎯 Objectives</h4>
+    - Improve clarity and accuracy in understanding IFC model data assisted by AI
+    - Streamline the processing of building information for project officers  
 
-    <h4>🔍 Problem Statement</h4>
-    The complexity of building data represented in Industry Foundation Classes (IFC) models poses challenges in accurately identifying the properties of various elements (e.g., precast walls). The use of abbreviations and shorthand notations in naming conventions contributes to confusion and misinterpretation, resulting in inefficiencies for processing officers.
+    <h4>🗂️ Data sources</h4>
+    - **IFC files** containing:
+      - Building element geometries and properties  
+      - Naming conventions (including abbreviations/shorthand)  
+    - Extracted data is structured into:
+    - **JSON** format for easy integration and manipulation  
+    - **AI embeddings** for semantic understanding and searchability  
 
-    This lack of clarity not only hampers effective data analysis but also increases the likelihood of errors in decision-making and project execution, ultimately affecting overall productivity and project outcomes.
-
-    <h4>💡 Solution</h4>
-    Develop an intelligent IFC File Processor and viewer to enhance the processing and usability of IFC files:
-
+    <h4>🚀 Features</h4>
     <ul>
-    <li>Efficiently extracts building data, converts it into a structured JSON format for easy integration with other applications, and transforms building information into searchable AI embeddings.</li>
-    <li>Interactive chatbots to:
-        <ul>
-            <li>Provide a user-friendly interface for querying the processed data</li>
-            <li>Highlight specific elements and count them by type</li>
-    </ul>
-    </li>
+        <li><strong>IFC File Processor</strong>:
+            <ul>
+                <li>Automatically extracts and cleans building data</li>
+                <li>Converts information into structured JSON</li>
+                <li>Creates AI embeddings to enhance semantic search</li>
+            </ul>
+        </li>
+
+        <li><strong>Interactive Viewer</strong>:
+            <ul>
+                <li>Visual representation of building elements</li>
+                <li>Highlights selected components and groups them by type</li>
+            </ul>
+        </li>
+
+        <li><strong>AI-Powered Chatbot</strong>:
+            <ul>
+                <li>Allows users to query data in natural language</li>
+                <li>Returns structured answers, counts, and insights</li>
+                <li>Assists in navigating and understanding complex model details</li>
+            </ul>
+        </li>
     </ul>
 
     This solution improves accuracy in identifying building element properties, allowing users to access complex building information through LLMs, thereby deepening understanding and supporting informed design and construction decisions.
