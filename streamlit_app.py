@@ -16,6 +16,30 @@ def main():
         "Process and analyze IFC files with ease. Upload your IFC file or use a sample model to get started."
     )
 
+    # Sidebar content
+    st.sidebar.title("About Us")
+    st.sidebar.markdown("""
+    **Subject:** AI-assisted IFC Processor and Viewer
+
+    ## 🔍 Problem Statement
+    The complexity of building data represented in Industry Foundation Classes (IFC) models poses challenges in accurately identifying the properties of various elements (e.g., precast walls). The use of abbreviations and shorthand notations in naming conventions contributes to confusion and misinterpretation, resulting in inefficiencies for processing officers.
+
+    This lack of clarity not only hampers effective data analysis but also increases the likelihood of errors in decision-making and project execution, ultimately affecting overall productivity and project outcomes.
+
+    ## 💡 Solution
+    Develop an intelligent IFC File Processor and viewer to enhance the processing and usability of IFC files:
+
+    * Efficiently extracts building data, converts it into a structured JSON format for easy integration with other applications, and transforms building information into searchable AI embeddings.
+    * Interactive chatbots to:
+        * Provide a user-friendly interface for querying the processed data
+        * Highlight specific elements and count them by type
+
+    This solution improves accuracy in identifying building element properties, allowing users to access complex building information through LLMs, thereby deepening understanding and supporting informed design and construction decisions.
+    """)
+
+    if __name__ == "__main__":
+    main()
+
     # Initialize file loader
     sample_models_dir = "sample_models"
     sample_files = FileLoader.list_sample_models(sample_models_dir)
