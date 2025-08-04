@@ -16,14 +16,6 @@ def main():
         "Process and analyze IFC files with ease. Upload your IFC file or use a sample model to get started."
     )
 
-if "show_about_us" not in st.session_state:
-    st.session_state.show_about_us = False
-
-# Show or hide button
-if not st.session_state.show_about_us:
-    if st.sidebar.button("📘 Show Project Info"):
-        st.session_state.show_about_us = True
-else:
     st.sidebar.title("About Us")
     
     small_font_sidebar = """
