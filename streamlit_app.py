@@ -25,21 +25,23 @@ def main():
     
     <h4>🔍 Problem Scope</h4>
     The project addresses the challenges associated with interpreting complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:
-    <li> a) Inconsistent or abbreviated naming conventions </li>
-    <li> b) Difficulty in accurately identifying properties of elements (e.g. precast walls) </li>
+    <li>a) Inconsistent or abbreviated naming conventions </li>
+    <li>b) Difficulty in accurately identifying properties of elements (e.g. precast walls) </li>
     </ul>
 
     <h4>🎯 Objectives</h4>
-    1. Improve clarity and accuracy in understanding IFC model data assisted by AI
-    2. Streamline the processing of building information for project officers  
+    <li>a) Improve clarity and accuracy in understanding complex IFC model data assisted by AI </li>
+    <li>b) Deepening understanding and supporting informed design and construction decisions  </li>
+    </ul>
 
     <h4>🗂️ Data sources</h4>
-    - **IFC files** containing:
-      - Building element geometries and properties  
-      - Naming conventions (including abbreviations/shorthand)  
-    - Extracted data is structured into:
-    - **JSON** format for easy integration and manipulation  
-    - **AI embeddings** for semantic understanding and searchability  
+    <li>- **IFC files** containing: </li>
+          - Building element geometries and properties  
+          - Naming conventions (including abbreviations/shorthand)  
+    <li>- Extracted data is structured into: </li>
+    <li>- **JSON** format for easy integration and manipulation </li>
+    <li>- **AI embeddings** for semantic understanding and searchability </li>
+    </ul>  
 
     <h4>🚀 Features</h4>
     <ul>
@@ -66,8 +68,6 @@ def main():
             </ul>
         </li>
     </ul>
-
-    This solution improves accuracy in identifying building element properties, allowing users to access complex building information through LLMs, thereby deepening understanding and supporting informed design and construction decisions.
     </div>
     """
 
