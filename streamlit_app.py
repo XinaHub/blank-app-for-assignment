@@ -25,12 +25,13 @@ def main():
     
     <h4>🔍 Problem Scope</h4>
     The project addresses the challenges associated with interpreting complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:
-    a) Inconsistent or abbreviated naming conventions
-    b) Difficulty in accurately identifying properties of elements (e.g. precast walls)
+    <li> a) Inconsistent or abbreviated naming conventions </li>
+    <li> b) Difficulty in accurately identifying properties of elements (e.g. precast walls) </li>
+    </ul>
 
     <h4>🎯 Objectives</h4>
-    - Improve clarity and accuracy in understanding IFC model data assisted by AI
-    - Streamline the processing of building information for project officers  
+    1. Improve clarity and accuracy in understanding IFC model data assisted by AI
+    2. Streamline the processing of building information for project officers  
 
     <h4>🗂️ Data sources</h4>
     - **IFC files** containing:
