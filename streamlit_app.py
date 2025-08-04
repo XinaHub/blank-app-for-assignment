@@ -21,7 +21,7 @@ def main():
     small_font_sidebar = """
     <div style='font-size:12px'>
     We're a team of 3 from BCA’s Construction Productivity and Quality Group (2 from the Digitalisation Dept + 1 from the Buildable Design Dept). We've worked on projects under CORENET X (CX) and encountered some of the common challenges that come with the process. As such, we're exploring how AI can help make the work smoother and less time-consuming — especially when it comes to processing and understanding complex BIM models. 
-    <br>
+    <br><br>
 
     <h4>🔍 Problem Scope</h4>
     <p>The project addresses the challenges associated with interpreting complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:</p>
