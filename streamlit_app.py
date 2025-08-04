@@ -16,35 +16,35 @@ def main():
         "Process and analyze IFC files with ease. Upload your IFC file or use a sample model to get started."
     )
 
-st.sidebar.title("About Us")
+    st.sidebar.title("About Us")
 
-small_font_sidebar = """
-<div style='font-size:12px'>
-<b> We're a team of three from BCA’s Construction Productivity and Quality Group — two of us from the Digitalisation Department, and one from the Buildable Design team. We've worked on projects under CORENET X (CX) and are familiar with some of the common challenges that come with the process. With that experience, we're exploring how AI can help make the work smoother and less time-consuming — especially when it comes to processing and understanding complex BIM models.</b> 
+    small_font_sidebar = """
+    <div style='font-size:12px'>
+    <b> We're a team of three from BCA’s Construction Productivity and Quality Group — two of us from the Digitalisation Department, and one from the Buildable Design team. We've worked on projects under CORENET X (CX) and are familiar with some of the common challenges that come with the process. With that experience, we're exploring how AI can help make the work smoother and less time-consuming — especially when it comes to processing and understanding complex BIM models.</b> 
 
-<h4>🔍 Problem Statement</h4>
-The complexity of building data represented in Industry Foundation Classes (IFC) models poses challenges in accurately identifying the properties of various elements (e.g., precast walls). The use of abbreviations and shorthand notations in naming conventions contributes to confusion and misinterpretation, resulting in inefficiencies for processing officers.
+    <h4>🔍 Problem Statement</h4>
+    The complexity of building data represented in Industry Foundation Classes (IFC) models poses challenges in accurately identifying the properties of various elements (e.g., precast walls). The use of abbreviations and shorthand notations in naming conventions contributes to confusion and misinterpretation, resulting in inefficiencies for processing officers.
 
-This lack of clarity not only hampers effective data analysis but also increases the likelihood of errors in decision-making and project execution, ultimately affecting overall productivity and project outcomes.
+    This lack of clarity not only hampers effective data analysis but also increases the likelihood of errors in decision-making and project execution, ultimately affecting overall productivity and project outcomes.
 
-<h4>💡 Solution</h4>
-Develop an intelligent IFC File Processor and viewer to enhance the processing and usability of IFC files:
+    <h4>💡 Solution</h4>
+    Develop an intelligent IFC File Processor and viewer to enhance the processing and usability of IFC files:
 
-<ul>
-<li>Efficiently extracts building data, converts it into a structured JSON format for easy integration with other applications, and transforms building information into searchable AI embeddings.</li>
-<li>Interactive chatbots to:
     <ul>
-        <li>Provide a user-friendly interface for querying the processed data</li>
-        <li>Highlight specific elements and count them by type</li>
+    <li>Efficiently extracts building data, converts it into a structured JSON format for easy integration with other applications, and transforms building information into searchable AI embeddings.</li>
+    <li>Interactive chatbots to:
+        <ul>
+            <li>Provide a user-friendly interface for querying the processed data</li>
+            <li>Highlight specific elements and count them by type</li>
     </ul>
-</li>
-</ul>
+    </li>
+    </ul>
 
-This solution improves accuracy in identifying building element properties, allowing users to access complex building information through LLMs, thereby deepening understanding and supporting informed design and construction decisions.
-</div>
-"""
+    This solution improves accuracy in identifying building element properties, allowing users to access complex building information through LLMs, thereby deepening understanding and supporting informed design and construction decisions.
+    </div>
+    """
 
-st.sidebar.markdown(small_font_sidebar, unsafe_allow_html=True)
+    st.sidebar.markdown(small_font_sidebar, unsafe_allow_html=True)
 
     # Initialize file loader
     sample_models_dir = "sample_models"
