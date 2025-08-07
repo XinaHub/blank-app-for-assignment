@@ -15,8 +15,6 @@ from auth import check_password
 if not check_password():
     st.stop()
 
-st.set_page_config(page_title="IFC file processor")
-
 def main():
     st.title("🎈 IFC File Processor")
     st.write(
