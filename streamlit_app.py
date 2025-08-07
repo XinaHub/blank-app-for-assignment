@@ -10,6 +10,28 @@ from src.components.embeddings_tab import EmbeddingsTab
 from src.components.load_embeddings_tab import LoadEmbeddingsTab
 from src.components.chat_tab import ChatTab
 
+
+def check_password():
+    def password_entered():
+        if st.session_state["password"] == "BCA-CPQ-2025":
+            st.session_state["password_correct"] = True
+        else:
+            st.session_state["password_correct"] = False
+
+    if "password_correct" not in st.session_state:
+        st.text_input("Password", type="password", on_change=password_entered, key="password")
+        return False
+    elif not st.session_state["password_correct"]:
+        st.text_input("Password", type="password", on_change=password_entered, key="password")
+        st.error("😕 Password incorrect")
+        return False
+    else:
+        return True
+
+if not check_password():
+    st.stop()
+
+
 def main():
     st.title("🎈 IFC File Processor")
     st.write(
