@@ -1,16 +1,17 @@
+import streamlit as st
+
 st.set_page_config(page_title="About Us", page_icon="📊")
 
 st.title("📊 Analysis Page")
 st.write("Flowchart.")
 
-    
 small_font_main = """
 <div style='font-size:12px'>
 We're a team of 3 from BCA’s Construction Productivity and Quality Group (2 from the Digitalisation Dept + 1 from the Buildable Design Dept). We've worked on projects under CORENET X (CX) and encountered some of the common challenges that come with the process. As such, we're exploring how AI can help make the work smoother and less time-consuming — especially when it comes to processing and understanding complex BIM models. 
 <br><br>
 
 <h4>🔍 Problem Scope</h4>
-<p>The project addresses the challenges associated with interpretating complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:</p>
+<p>The project addresses the challenges associated with interpreting complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:</p>
 <ol type="a" style="margin-left: 20px;">
   <li>Inconsistent or abbreviated naming conventions</li>
   <li>Difficulty in accurately identifying properties of elements (e.g. precast walls)</li>
