@@ -1,3 +1,8 @@
+from auth import check_password
+
+if not check_password():
+    st.stop()
+
 import streamlit as st
 from src.utils.file_loader import FileLoader
 from src.utils.embedding import EmbeddingProcessor
@@ -9,12 +14,6 @@ from src.components.download_tab import DownloadTab
 from src.components.embeddings_tab import EmbeddingsTab
 from src.components.load_embeddings_tab import LoadEmbeddingsTab
 from src.components.chat_tab import ChatTab
-
-from auth import check_password
-
-if not check_password():
-    st.stop()
-
 
 def main():
     st.title("🎈 IFC File Processor")
