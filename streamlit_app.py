@@ -46,7 +46,7 @@ def main():
     <br><br>
 
     <h4>🔍 Problem Scope</h4>
-    <p>The project addresses the challenges associated with interpreting complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:</p>
+    <p>The project addresses the challenges associated with interpretating complex building data in Industry Foundation Classes (IFC) models, particularly issues stemming from:</p>
     <ol type="a" style="margin-left: 20px;">
       <li>Inconsistent or abbreviated naming conventions</li>
       <li>Difficulty in accurately identifying properties of elements (e.g. precast walls)</li>
@@ -55,7 +55,7 @@ def main():
     <h4>🎯 Objectives</h4>
     <ol type="a" style="margin-left: 20px;">
       <li>Improve clarity and accuracy in understanding complex IFC model data assisted by AI</li>
-      <li>Deepening understanding and supporting informed design and construction decisions</li>
+      <li>Deepen understanding and supporting informed design and construction decisions</li>
     </ol>
 
     <h4>🗂️ Data sources</h4>
