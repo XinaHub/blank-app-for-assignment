@@ -13,7 +13,7 @@ from src.components.chat_tab import ChatTab
 
 def check_password():
     def password_entered():
-        if st.session_state["password"] == "BCA-CPQ-2025":
+        if st.session_state["password"] == "CPQ":
             st.session_state["password_correct"] = True
         else:
             st.session_state["password_correct"] = False
