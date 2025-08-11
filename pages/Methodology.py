@@ -7,4 +7,5 @@ if not check_password():
 st.set_page_config(page_title="Methodology", page_icon="📊")
 
 st.title("📊 Flowchart")
-st.write("Example of flowchart")
+
+st.image("flowchart.png", caption="My Flowchart", use_column_width=True)
