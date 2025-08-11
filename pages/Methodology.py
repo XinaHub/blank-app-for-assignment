@@ -8,4 +8,4 @@ st.set_page_config(page_title="Methodology", page_icon="📊")
 
 st.title("📊 Flowchart")
 
-st.image("flowchart1.png", caption="Methodology", use_container_width=True)
+st.image("pages/flowchart1.png", caption="Methodology", use_container_width=True)
